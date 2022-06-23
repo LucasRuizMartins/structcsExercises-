@@ -1,0 +1,33 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		int num = 0;
+		int vetSize;
+	
+		Scanner sc = new Scanner (System.in);
+	
+		
+		ArrayList<Integer> vet = new ArrayList<>();
+
+		while (num != 0 ) {
+			
+			System.out.println("Digite um novo numero para acrescentar a Lista, ou Zero para sair");
+			num = sc.nextInt();
+			vet.add(num);
+		};
+		
+	
+		for (int n : vet) {
+			System.out.println(n);
+		}
+		
+		
+	}
+
+}

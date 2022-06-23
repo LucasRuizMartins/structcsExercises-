@@ -1,0 +1,31 @@
+package application;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		int n = 0;
+		int[] vet[];
+		String line; 
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println();
+	
+		int value;
+		int i = 0;
+		
+		while (i != 0 ) {
+			System.out.println("Digite um novo numero para acrescentar a Lista, ou Zero para sair");
+			
+			vet[i] = sc.nextInt();
+			
+		};
+		
+		for (int x = 0; i > vet.length; x++) {
+			System.out.println();
+			
+		}
+	}
+
+}

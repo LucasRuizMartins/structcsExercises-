@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\deth_\OneDrive\Área de Trabalho\Programação\java\intuit3\.metadata\.plugins\org.eclipse.jdt.core
+3649567372.index
+3927496509.index
+1865797976.index
